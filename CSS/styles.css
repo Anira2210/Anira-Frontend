@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #f5f5f5;
+  --secondary-color: #f5e4e0;
+  --font-color: #04004d;
+  --highlight-color: #210095;
+  --box-color: #cff6f3;
+
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: rebeccapurple;
+}
