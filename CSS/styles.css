@@ -11,9 +11,9 @@
 h1 {
   font-size: 42px;
   color: var(--font-color);
-  font-weight: 900;
-  line-height: 140%;
-  font-family: "Marcellus", serif;
+  font-weight: 600;
+  line-height: 150%;
+  font-family: "DM Serif Display", serif;
 }
 
 h1 span {
@@ -24,32 +24,47 @@ h1 span {
   right: 100px;
   white-space: nowrap;
 }
-
-img {
-  position: relative;
-  top: 30px;
+h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 p {
-  color: var(--font-color);
   font-family: "Mukta", sans-serif;
 }
 
-.outer-box {
-  background-color: var(--primary-color);
+.intro-box {
   margin-top: 100px;
   max-width: 1000px;
 }
 
+.intro-header {
+  background-color: var(--primary-color);
+}
 .no-padding {
   padding: 0;
 }
 
 .bar {
   background-color: var(--font-color);
-  height: 30px;
+  height: 24px;
 }
-.bar-photo {
-  background-color: white;
-  padding: 0;
+
+.about-box {
+  margin-top: 80px;
+  max-width: 800px;
+}
+
+p span {
+  background-color: var(--font-color);
+  color: #fff;
+  padding-left: 7px;
+  padding-right: 7px;
+  line-height: 120%;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
