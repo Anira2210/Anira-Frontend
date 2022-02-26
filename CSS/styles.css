@@ -102,6 +102,10 @@ p {
   border-color: var(--secondary-color);
 }
 
+.card-homepage {
+  margin: 0 auto;
+}
+
 .about-box {
   margin-bottom: 100px;
   padding: 20px;
