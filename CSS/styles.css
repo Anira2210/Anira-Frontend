@@ -28,9 +28,9 @@ h2 {
   margin-bottom: 16px;
 }
 h3 {
-  color: var(--font-color);
+  color: var(--text-color);
   font-family: var(--heading-font);
-  font-size: 26px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 500px;
 }
@@ -90,15 +90,13 @@ footer {
   background-color: var(--font-color);
   color: white;
   padding: 5px 10px;
-  border-radius: 100%;
+  border-radius: 60%;
   transition: var(--transition);
 }
 
 .header-button a:hover {
   background-color: white;
   color: var(--font-color);
-  padding: 6px 10px;
-  border-radius: 100%;
 }
 .no-padding {
   padding: 0;
@@ -149,6 +147,10 @@ footer {
   padding: 20px;
   max-width: 800px;
 }
+.about-hi {
+  background-color: #e2b09d;
+  padding-left: 10px;
+}
 
 p span {
   font-size: 14px;
@@ -172,6 +174,11 @@ p span {
   color: var(--highlight-color);
 }
 
+.contact-container {
+  max-width: 1000px;
+  margin-top: 100px;
+}
+
 @media (max-width: 992px) {
   .header-text-area {
     display: none;
@@ -183,8 +190,8 @@ p span {
     background-color: var(--secondary-color);
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 42px;
-    margin-left: 40px;
+    font-size: 38px;
+    margin-left: 20px;
     white-space: nowrap;
     line-height: 90%;
   }
