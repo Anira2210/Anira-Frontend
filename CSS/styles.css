@@ -58,6 +58,8 @@ footer {
   font-size: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
+  position: absolut;
+  bottom: 0;
 }
 
 .navigation {
